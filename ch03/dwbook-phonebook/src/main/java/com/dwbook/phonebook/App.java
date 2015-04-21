@@ -22,6 +22,7 @@ public class App extends Application<PhonebookConfiguration> {
 			String s = c.getMessage();
 			System.out.println(s);
 		}
+		System.out.println(c.getAdditionalMessage());
 	}
 
 	public static void main(String[] args) throws Exception {
